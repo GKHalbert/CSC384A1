@@ -1,0 +1,10 @@
+/** WRITE YOUR TIPS IN THIS FILE **/
+
+1. Take both storage and robots into consideration. 
+Distance from the goal should be caculated based on the distance from each box to storage points and robots.
+
+2. Checking for deadlocks. 
+In some states some boxes are trapped and never able to reach a storage (for example, box trapped in a corner), these states should be avoided.
+
+3. Improve code efficency. 
+For many states the boxes are in the same locations, we can save the computed distance value and reuse it to reduce running time.
